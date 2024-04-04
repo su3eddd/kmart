@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ja's K-Mart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<!-- navigation bar -->
+<nav>
+  <div class="navbar">
+    <div class="logo"><a href="index.html">JA'S K-MART</a></div>
+    <div class="nav-links">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a>Menu</a>
+          <i class='bx bxs-chevron-down arrwo htmlcss-arrow'></i>
+          <ul class="htmlcss-sub-menu sub-menu">
+            <li><a href="noodles.html">Noodles</a></li>
+            <li><a href="snacks.html">Snacks</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="Ice-cream.html">Ice Creams</a></li>
+            <li><a href="frozen.html">Meats/Dumplings</a></li>
+            <li><a href="seaweed.html">Homemade Dishes</a></li>
+            <li><a href="seasoned.html">Seasoned (Sauce/Powder)</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About us</a></li>
+        <li>
+          <a>Language</a>
+          <i class='bx bxs-chevron-down arrow js-arrow'></i>
+          <ul class="js-sub-menu sub-menu">
+            <li><a href="english.html">English</a></li>
+            <li><a href="korean.html">Korean</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="search-box">
+      <i class='bx bx-search-alt'></i>
+      <div class="input-box">
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- navigation bar end -->
+
+  <!-- features -->
+<div class="slider">
+  <div class="list">
+    <div class="item">
+      <img src="slider (1).jpg">
+    </div>
+    <div class="item">
+      <img src="slider (2).jpg">
+    </div>
+    <div class="item">
+      <img src="slider (3).jpg">
+    </div>
+    <div class="item">
+      <img src="slider (4).jpg">
+    </div>
+  </div>
+  <!-- button prev next -->
+<div class="button">
+  <button id="prev"><</button>
+  <button id="next">></button>
+</div>
+<!-- dots -->
+<ul class="dots">
+  <li class="active"></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</div>
+<!-- feature end -->
+
+<!-- best seller -->
+<h3 class="title">BEST SELLER</h3>
+<div class="container">
+  <div class="products-container">
+    <div class="product" data-name="p-1">
+      <img src="Homemade Dishes-img/kimchi.png">
+      <h3>Kimchi</h3>
+      <div class="price">₱20.00 - ₱100.00</div>
+    </div>
+    <div class="product" data-name="p-2">
+      <img src="Homemade Dishes-img/rice balls.png">
+      <h3>Rice Ball</h3>
+      <div class="price">₱2.00</div>
+    </div>
+    <div class="product" data-name="p-3">
+      <img src="Homemade Dishes-img/kimbapcrop.png">
+      <h3>Kimbap</h3>
+      <div class="price">₱105.00 - ₱120.00</div>
+    </div>
+    <div class="product" data-name="p-4">
+      <img src="Homemade Dishes-img/sotteok.png">
+      <h3>Sotteok</h3>
+      <div class="price">₱35.00</div>
+    </div>
+    <div class="product" data-name="p-5">
+      <img src="nooodle-images/cheese_buldak.png">
+      <h3>Samyang Buldak CHEESE Hot Chicken Flavor Ramen</h3>
+      <div class="price">₱40.00</div>
+    </div>
+    <div class="product" data-name="p-6">
+      <img src="nooodle-images/jin_ramen_mild.png">
+      <h3>ottogi jin ramen mild</h3>
+      <div class="price">₱40.00</div>
+    </div>
+
+    <!-- new arrivals -->
+    <h3 class="title">NEW ARRIVALS</h3>
+      <div class="product" data-name="p-7">
+        <img src="drink-img/ice talk.png">
+        <h3>Ice talk</h3>
+        <div class="price">₱60.00 </div>
+      </div>
+      <div class="product" data-name="p-8">
+        <img src="snack-img/crown choco hazelnut.png">
+        <h3>Crown Choco Hazelnut</h3>
+        <div class="price">₱2.00</div>
+      </div>
+      <div class="product" data-name="p-9">
+        <img src="Homemade Dishes-img/bibimbap.png">
+        <h3>Bibimbap</h3>
+        <div class="price">₱2.00</div>
+      </div>
+      <!-- new arrivals end -->
+  </div>
+</div>
+<div class="products-preview">
+  <div class="preview" data-target="p-1">
+     <i class="fas fa-times"></i>
+     <img src="Homemade Dishes-img/kimchi.png">
+     <h3>kimchi</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 87 )</span>
+     </div>
+     <p>Small tub | Medium tub | Large tub</p>
+     <div class="price">₱20.00 | ₱50.00 | ₱100.00</div>
+  </div>
+  <div class="preview" data-target="p-2">
+     <i class="fas fa-times"></i>
+     <img src="Homemade Dishes-img/rice balls.png">
+     <h3>Rice Ball</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <span>( 178 )</span>
+     </div>
+     <div class="price">₱2.00</div>
+  </div>
+  <div class="preview" data-target="p-3">
+     <i class="fas fa-times"></i>
+     <img src="Homemade Dishes-img/kimbapcrop.png">
+     <h3>Kimbap</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 298 )</span>
+     </div>
+     <p>Original | Tuna | Kimchi | Beef</p>
+     <div class="price">₱105.00 - ₱120.00</div>
+  </div>
+  <div class="preview" data-target="p-4">
+     <i class="fas fa-times"></i>
+     <img src="Homemade Dishes-img/sotteok.png">
+     <h3>Sotteok</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <span>( 390 )</span>
+     </div>
+     <div class="price">₱35.00</div>
+  </div>
+  <div class="preview" data-target="p-5">
+     <i class="fas fa-times"></i>
+     <img src="nooodle-images/cheese_buldak.png">
+     <h3>Samyang Buldak CHEESE Hot Chicken Flavor Ramen</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 486 )</span>
+     </div>
+     <div class="price">₱40.00</div>
+  </div>
+  <div class="preview" data-target="p-6">
+     <i class="fas fa-times"></i>
+     <img src="nooodle-images/jin_ramen_mild.png">
+     <h3>ottogi jin ramen mild</h3>
+     <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>( 439 )</span>
+     </div>
+     <div class="price">₱40.00</div>
+  </div>
+
+<!-- new arrivals -->
+  <div class="preview" data-target="p-7">
+    <i class="fas fa-times"></i>
+    <img src="drink-img/ice talk.png">
+    <h3>Ice Talk</h3>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star-half-alt"></i>
+       <span>( 87 )</span>
+    </div>
+    <div class="price">₱60.00</div>
+  </div>
+  <div class="preview" data-target="p-8">
+    <i class="fas fa-times"></i>
+    <img src="snack-img/crown choco hazelnut.png">
+    <h3>Crown Choco Hazelnut</h3>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star-half-alt"></i>
+       <span>( 78 )</span>
+    </div>
+    <div class="price">₱2.00</div>
+  </div>
+  <div class="preview" data-target="p-9">
+    <i class="fas fa-times"></i>
+    <img src="Homemade Dishes-img/bibimbap.png">
+    <h3>Bibimbap</h3>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star-half-alt"></i>
+       <span>( 95 )</span>
+    </div>
+    <div class="price">₱2.00</div>
+  </div>
+  <!-- new arrivals end -->
+</div>
+<!-- best seller end -->
+
+<!-- footer -->
+<footer>
+  <div class="foot-quick">
+      <h3>Quick Links</h3>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="noodles.html">Noodles</a></li>
+          <li><a href="snacks.html">Snacks</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="drinks.html">Ice Creams</a></li>
+          <li><a href="frozen.html">Meats/Dumplings</a></li>
+          <li><a href="seaweed.html">Homemade Dishes</a></li>
+          <li><a href="seasoned.html">Seasoned</a></li>
+      </ul>
+  </div>
+  <div class="foot">
+      <h3>Contact Us</h3>
+      <p>Phone: (+63)965 509 5133</p>
+      <p>Facebook: JA'S K-MART</p>
+  </div>
+  <div class="foot">
+      <h3>Address</h3>
+      <p>L. Geirosa Avenue Brgy. Silangan, Calauan, Laguna Philipines </p>
+  </div>
+  <div class="foot">
+      <h3>Opening Hours</h3>
+      <p>Monday - Sunday: 11am-12am</p>
+  </div>
+</footer>
+<!-- footer end -->
+
+
+  <script src="index-script.js"></script>
+</body>
+</html>
